@@ -23,3 +23,26 @@ def panier(nb) :# i create a function named "panier"
    
 
 panier(nb)#call function "panier"
+
+
+print("\nexercise 4 : you said factorial\n")
+try:#try 
+    num = 1#i declare a variable "num" to "1"
+    number = int(input("enter an integer number:"))#i declare a variable "number" to number enter
+    for i in range(1,number+1):#for i in range number + 1
+        num = num * i#i declare num egual num multiply by "i"
+        print("factorial of number is:",num)#display the foctorial of number is ...
+except:#exception
+        print("error is not an integer")#display messenger error
+
+
+print("\nexercise 5 : les tirets ca compte\n")
+
+def change():#i create a function nammed "change"
+     name = input("enter a string:")#i declare a variable name is = string enter of user
+     nameChange = name.replace("-", "\_")#i declare a variable with replace "-" by "\_"
+     print(nameChange)#i display new variable "namechange" 
+     if name=="":#if name is egual not entry
+        print("error")#i display an error messenger
+     
+change()#call the function named "change"
