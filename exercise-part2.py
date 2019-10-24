@@ -87,3 +87,18 @@ def user(usersboards):#i create a function named "usersboards"
             print(j)#display list items
 
 user(usersboards)#call the function
+
+
+print("\nexercise 9 : max of boards\n")
+
+def maximum():#i create a function named "maximum"
+    number = [54, 45, 67, 89, 3, 87, 31, 24]#i create a list with many numbers items
+    print(max(number))#i display the maximum numbers items of the list
+
+maximum()#call the function
+
+def maximus():#i create a function named "maximus"
+    boars = ["carte", "89", "livre", "54", "computeur", "100", "sac", "24"]#i creat a list with many number and name items
+    print(max(boars))#i display the maximum items of the list
+
+maximus()#i call the function
