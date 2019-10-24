@@ -13,3 +13,19 @@ def maxi(*args):#i create a function named "maxi" and adding "args" method
 	return maximum#return the function
 
 print(maxi(*[pomme, poire, banane, orange]))#i display the function with items
+
+print("\nexercise 2:\n")
+
+import math#import function "math"
+age = int(input("enter age:"))#i declare a variable with the enter of user
+
+if age <= 0:#if age is smallest or egual of zero
+	print("enter realy age:")#i display a message "enter realy age"
+if age >=21:#if the variable "age" is bigger of egual twenty one
+	print("ok")#display message "ok"
+if(age%2==0):#if variable "age" modulo of 2 is egual "0"
+    print("your age is pair")#display message "pair"
+if math.sqrt(age).is_integer():#if math sqrt function is an integer number
+    print ("your age is a square")#display a message is a square
+if math.sqrt(age).is_integer()==False:#if math sqrt number no
+    print ("your age is not a square")#display message is not a square
