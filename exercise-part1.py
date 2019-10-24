@@ -44,3 +44,16 @@ while usernb != nombent:#while entry user is not the same of the hidden number
         usernb = int(input("enter a number:"))#i declare a variable for input user number
 if usernb == nombent:#if user number is egual the hidden number 
     print("you win") #display message "you win"
+
+
+print("\nexercise 4:\n")
+
+for num in range(100):#for num in range 0 at 100
+    print(num + 1)#display all number 0 at 100
+
+print("\nexercise 5:\n")
+
+
+for num in range(101):#for num in range 0 at 101
+    if num %2 == 0:#if num is modulo of 2 egual zero
+        print(num)#print num
