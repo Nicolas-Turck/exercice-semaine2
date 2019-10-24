@@ -57,3 +57,14 @@ print("\nexercise 5:\n")
 for num in range(101):#for num in range 0 at 101
     if num %2 == 0:#if num is modulo of 2 egual zero
         print(num)#print num
+
+
+print("\nexercise 6:\n")
+#i declare many variable longeur largeur hauteur and debit
+hauteur = 2 
+largeur = 4
+longeur = 6
+debit_eau = 2
+minute = 1
+metre_cube_piscine = largeur * longeur * hauteur#i declare a variable to m3 of picsine with result of calcul 
+print("temps de remplissage",metre_cube_piscine/debit_eau,"mn")#i display the result of calcul
