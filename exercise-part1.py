@@ -86,3 +86,27 @@ def perimetre():#i create a function "perimetre"
 
 aire()#call function aire
 perimetre()#call function perimetre
+
+
+print("\nexercise 8:\n")
+
+i= 5#i declare "i" egual 5
+for i in range(1,6): #for i in range 1 at 6
+    print('*' * i)#display star multiply by i
+    i = i-1#i declare i egual i - 1
+
+
+print("\exercise 9:")
+
+chiffre = 0 #i declare a variable i = 0
+chiffre=chiffre+1#i declare a variable chiffre egual chiffre + 1
+
+import math #import method math
+for num in range(101):#for num in range 0 at 101
+  chiffre = num+1#i declare a variable chiffre egual num + 1
+  if num%3 == 0:#if num modulo of 3 is egual zero
+    print("FIZZ")#display"fizz"
+  if num%5 == 0:#if num modulo of 5
+    print("BUZZ")#display "buzz"
+  if num%3 == 0 and num%5 == 0:#if num modulo of 3 is egual 0
+    print("FIZZBUZZ")#display "fizzbuzz"
