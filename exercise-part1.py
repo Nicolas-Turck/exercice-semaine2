@@ -68,3 +68,21 @@ debit_eau = 2
 minute = 1
 metre_cube_piscine = largeur * longeur * hauteur#i declare a variable to m3 of picsine with result of calcul 
 print("temps de remplissage",metre_cube_piscine/debit_eau,"mn")#i display the result of calcul
+
+
+print("\nexercise 7:\n")
+
+import math#import the function math
+from math import pi #from math i import the function pi
+rayon=int(input("enter rayon:"))#i declare a variable to ray of input user
+
+def aire():#i create a function "aire"
+    aze=round(pi*(rayon**2),2)#i declare a variable "aze" egual round pi x ray xx 2 ,2
+    print(aze)#display aze
+def perimetre():#i create a function "perimetre"
+    diametre = 2 * rayon#i declare a variable "diametre" egual two x ray
+    are=round(pi * diametre,2)#i declare a variable "are" round pi x diametre ,2
+    print(are)#i display are
+
+aire()#call function aire
+perimetre()#call function perimetre
