@@ -46,3 +46,23 @@ def change():#i create a function nammed "change"
         print("error")#i display an error messenger
      
 change()#call the function named "change"
+
+
+print("\nexercise 6 : training with boards\n")
+
+liste = ["eau","javel","savon","gateaux","lait","chocolat","pain"]#i create a liste with items 
+print("by",liste[0])#i display the first items of the list (number 0 )
+print("by",liste[-1])#i display the latest items of the list (number -1)
+num=(int(len(liste)/2))#i definite the middle items in the list
+print(liste[num])#i display this items
+       
+print("\nexercise 7 : man boards\n")
+
+information = ["nicolas", "turck", "34ans", 1985]#i create a list with informations of an users
+
+def user(information):#i create a function named "user"
+    for i in information:#for i in the list 
+        print(i)#display i (items)
+
+
+user(information)#call the function
