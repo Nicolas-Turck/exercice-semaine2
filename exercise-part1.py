@@ -1,4 +1,4 @@
-print("\nexercise :1 \n")
+print("\nexercise 1 : Tallest number \n")
 #i declare many variable
 pomme = 16
 poire = 4
@@ -14,7 +14,7 @@ def maxi(*args):#i create a function named "maxi" and adding "args" method
 
 print(maxi(*[pomme, poire, banane, orange]))#i display the function with items
 
-print("\nexercise 2:\n")
+print("\nexercise 2 : age condition\n")
 
 import math#import function "math"
 age = int(input("enter age:"))#i declare a variable with the enter of user
@@ -31,7 +31,7 @@ if math.sqrt(age).is_integer()==False:#if math sqrt number no
     print ("your age is not a square")#display message is not a square
 
 
-print("\nexercise 3:\n")
+print("\nexercise 3 : hidden number \n")
 
 nombent = 58#i declare the hidden number is 58
 usernb = int(input("enter a number:"))#i declare a variable for input user number
@@ -46,12 +46,12 @@ if usernb == nombent:#if user number is egual the hidden number
     print("you win") #display message "you win"
 
 
-print("\nexercise 4:\n")
+print("\nexercise 4 : numbers to loops \n")
 
 for num in range(100):#for num in range 0 at 100
     print(num + 1)#display all number 0 at 100
 
-print("\nexercise 5:\n")
+print("\nexercise 5 : number to loops 2\n")
 
 
 for num in range(101):#for num in range 0 at 101
@@ -59,7 +59,7 @@ for num in range(101):#for num in range 0 at 101
         print(num)#print num
 
 
-print("\nexercise 6:\n")
+print("\nexercise 6 : fill the pool\n")
 #i declare many variable longeur largeur hauteur and debit
 hauteur = 2 
 largeur = 4
@@ -70,7 +70,7 @@ metre_cube_piscine = largeur * longeur * hauteur#i declare a variable to m3 of p
 print("temps de remplissage",metre_cube_piscine/debit_eau,"mn")#i display the result of calcul
 
 
-print("\nexercise 7:\n")
+print("\nexercise 7 : calcul the circle\n")
 
 import math#import the function math
 from math import pi #from math i import the function pi
@@ -88,7 +88,7 @@ aire()#call function aire
 perimetre()#call function perimetre
 
 
-print("\nexercise 8:\n")
+print("\nexercise 8 : a pyramid \n")
 
 i= 5#i declare "i" egual 5
 for i in range(1,6): #for i in range 1 at 6
@@ -96,7 +96,7 @@ for i in range(1,6): #for i in range 1 at 6
     i = i-1#i declare i egual i - 1
 
 
-print("\exercise 9:")
+print("\exercise 9 : fizzbuzz")
 
 chiffre = 0 #i declare a variable i = 0
 chiffre=chiffre+1#i declare a variable chiffre egual chiffre + 1
