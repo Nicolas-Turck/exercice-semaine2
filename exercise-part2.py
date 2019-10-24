@@ -66,3 +66,24 @@ def user(information):#i create a function named "user"
 
 
 user(information)#call the function
+
+
+print("\npartie 2 exercise 8\n")
+#i create a list with several list in and items 
+usersboards = [["nicolas", "turck", "34ans", 1985], ["jean", "bernard", "56ans", 1963], ["kevin", "billet", "27ans", 1991]]
+
+def user(usersboards):#i create a function named "usersboards"
+    for i in usersboards:#for i in list
+        print(i)#display list an order and items
+
+user(usersboards)#call the function
+
+
+usersboards = [["nicolas", "turck", "34ans", 1985], ["jean", "bernard", "56ans", 1963], ["kevin", "billet", "27ans", 1991]]
+
+def user(usersboards):#i create a function named "usersboards"
+    for i in usersboards:#for items in list "userboards"
+        for j in i:#for items in list "i"
+            print(j)#display list items
+
+user(usersboards)#call the function
