@@ -29,3 +29,18 @@ if math.sqrt(age).is_integer():#if math sqrt function is an integer number
     print ("your age is a square")#display a message is a square
 if math.sqrt(age).is_integer()==False:#if math sqrt number no
     print ("your age is not a square")#display message is not a square
+
+
+print("\nexercise 3:\n")
+
+nombent = 58#i declare the hidden number is 58
+usernb = int(input("enter a number:"))#i declare a variable for input user number
+while usernb != nombent:#while entry user is not the same of the hidden number
+    if nombent>usernb:#if hidden numer is tallest the user number
+        print("your number is smaller")#display message "smaller"
+        usernb = int(input("enter a number:"))#i declare a variable for input user number
+    if nombent<usernb:#if hidden number is smaller the user number
+        print("your number is taller")#display the message "taller"
+        usernb = int(input("enter a number:"))#i declare a variable for input user number
+if usernb == nombent:#if user number is egual the hidden number 
+    print("you win") #display message "you win"
