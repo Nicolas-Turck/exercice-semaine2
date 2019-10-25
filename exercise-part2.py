@@ -8,7 +8,15 @@ for i in range(0,4):#for i in ran
 
 print("\nexercise 2 : matrix\n")
 
+i=0#i declare a variable
 
+for i in range(0, 3):#for i in suite 0 at 3
+    for j in range(0, 4):#and for j in suite 0 at 4
+        if i==j:#if i egual j 
+            print(1)#display 1
+        else:
+            print(0)#else display 0
+    print("\"-------\"") #display "-------"
 
 
 print("\nexercise 3 : pair number\n")
@@ -36,7 +44,7 @@ except:#exception
         print("error is not an integer")#display messenger error
 
 
-print("\nexercise 5 : les tirets ca compte\n")
+print("\nexercise 5 : dashes changes\n")
 
 def change():#i create a function nammed "change"
      name = input("enter a string:")#i declare a variable name is = string enter of user
