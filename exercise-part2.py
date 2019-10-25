@@ -110,3 +110,14 @@ def maximus():#i create a function named "maximus"
     print(max(boars))#i display the maximum items of the list
 
 maximus()#i call the function
+
+
+print("\nexercise 9 : a to do list\n")
+
+toDoList = []#create a liste
+user = ""#declare a variable user
+while user != "fin":#conditions
+    user = (input("enter a new task : "))#user = input task
+    if user == "fin":#if user enter "fin"
+        print(toDoList)#display the todo list
+    toDoList.append(user)#enter for user adding in todolist
