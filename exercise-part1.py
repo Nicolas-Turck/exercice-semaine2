@@ -3,7 +3,7 @@ print("\nexercise 1 : Tallest number \n")
 pomme = 16
 poire = 4
 banane = 32
-orange = 12
+orange = 13
 
 
 
