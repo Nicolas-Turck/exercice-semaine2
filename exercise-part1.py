@@ -1,9 +1,15 @@
 print("\nexercise 1 : Tallest number \n")
 #i declare many variable
-pomme = 16
-poire = 4
-banane = 32
-orange = 13
+#declare variable
+python = 16
+java = 4
+vujs = 32
+css = 13
+
+list=[]#create list
+list.append(python), list.append(java), list.append(vujs), list.append(css)
+#adding variable in list
+print(max(list))#print max list
 
 
 
@@ -65,8 +71,8 @@ print("temps de remplissage",metre_cube_piscine/debit_eau,"mn")#i display the re
 
 print("\nexercise 7 : calcul the circle\n")
 
-import math#import the function math
-from math import pi #from math i import the function pi
+#import the function math
+from math import pi#from math i import the function pi
 rayon=int(input("enter rayon:"))#i declare a variable to ray of input user
 
 def aire():#i create a function "aire"
