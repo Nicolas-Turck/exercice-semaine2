@@ -76,7 +76,7 @@ def user(information):#i create a function named "user"
 user(information)#call the function
 
 
-print("\npartie 2 exercise 8\n")
+print("\npartie 2 exercise 7\n")
 #i create a list with several list in and items 
 usersboards = [["nicolas", "turck", "34ans", 1985], ["jean", "bernard", "56ans", 1963], ["kevin", "billet", "27ans", 1991]]
 
@@ -97,7 +97,7 @@ def user(usersboards):#i create a function named "usersboards"
 user(usersboards)#call the function
 
 
-print("\nexercise 9 : max of boards\n")
+print("\nexercise 8 : max of boards\n")
 
 def maximum():#i create a function named "maximum"
     number = [54, 45, 67, 89, 3, 87, 31, 24]#i create a list with many numbers items
